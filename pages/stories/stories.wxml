@@ -1,0 +1,22 @@
+<!-- only displaying the stories and welcome message IF user is logged in -->
+<view wx:if="{{!loggedIn}}">
+  <view class="welcome">Welcome {{userInfo.nickName}}</view>
+
+  <!-- looping through the local data 'stories' and creating HTML for each 'story'-->
+  <view wx:key='index' wx:for="{{stories}}" wx:for-item="story">
+    <view bindtap="goToShow" class="card-product" data-id="{{story.id}}">
+    <image src="{{story.image}}" />
+    <view class="card-product-infos">
+      <view class='h2'>{{story.title}}</view>
+      <text>{{story.content}}</text>
+    </view>
+    </view>
+  </view>
+
+  <button bindtap="changeData">Change data</button>
+</view>
+<navigator url="/pages/post/post">Click here to create a story!</navigator>
+<!-- IF user is not logged in, displaying the login button -->
+<button class='login-button' wx:if="{{!loggedIn}}" bindtap="logIn">Please log in</button>
+
+

@@ -1,0 +1,12 @@
+.container {
+  margin: 50rpx;
+  text-align: center;
+}
+
+.header {
+  font-size: larger;
+}
+
+.content {
+  font-size: medium;
+}

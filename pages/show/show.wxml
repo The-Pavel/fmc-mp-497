@@ -1,0 +1,6 @@
+<view class="container">
+  <view class="header">{{title}}</view>
+  <view class="content">{{content}}</view>
+  <button size="mini" type="primary" bindtap="goToEdit">Edit</button>
+  <button size="mini" type="warn" bindtap="destroy">Delete</button>
+</view>

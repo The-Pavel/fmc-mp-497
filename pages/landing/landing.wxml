@@ -1,0 +1,8 @@
+<view class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://tse4-mm.cn.bing.net/th/id/OIP.7TDiuv0n4d7ibq7oMYetiQHaLH?pid=Api&w=640&h=960&rs=1);">
+  <view class="container">
+    <view class='h1'>The bugs that we all love and hate</view>
+    <text>This is a safe place to remember the hardest coding challenges</text>
+    <!-- 'bindtap' is how we bind function calls to WXML; line 6 means 'when someone taps this navigator element, call the goToStories function in landing.js' -->
+    <navigator bindtap="goToStories" class="btn btn-flat" url="#">Start now</navigator>
+  </view>
+</view>

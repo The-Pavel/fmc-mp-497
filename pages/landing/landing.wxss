@@ -1,0 +1,30 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 50rpx 20rpx;
+  text-align: center;
+}
+
+.banner .h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1rpx 1rpx 3rpx rgba(0,0,0,0.2);
+  font-size: 60rpx;
+  font-weight: bold;
+}
+
+.banner text {
+  font-size: 40rpx;
+  color: white;
+  opacity: .7;
+  text-shadow: 1rpx 1rpx 3rpx rgba(0,0,0,0.2);
+  margin: 150rpx 0rpx;
+}
+
+.btn-flat {
+  color: white;
+  padding: 18rpx 30rpx;
+  border-radius: 4rpx;
+  background: #1EDD88;
+  transition: background 0.3s ease;
+}
